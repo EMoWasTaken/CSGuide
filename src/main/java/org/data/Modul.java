@@ -22,24 +22,14 @@ public class Modul {
         this.type = type;
     }
 
-    public void rate(int cpPref) {
-        List<Integer> cpCounts = new ArrayList<>();
+    public static Modul find(String abbrev) {
         for(Modul m : moduleList)
-            cpCounts.add(m.cp);
+            if(m.abbreviation.equals(abbrev))
+                return m;
+        return null;
+    }
 
-        float maxCp = Collections.max(cpCounts);
-        float minCp = Collections.min(cpCounts);
-
-        float relCp = (float) cp / (maxCp + minCp);
-
-        float cpRating;
-        if(cpPref == 1)
-            cpRating = relCp;
-        else if(cpPref == 0)
-            cpRating = 1 - 2 * Math.abs(relCp - 0.5f);
-        else
-            cpRating = 1 - relCp;
-
+    public void rate() {
         float tagAvg = 0;
         for(Tag tag : tags)
             tagAvg += tag.popularity;
