@@ -5,13 +5,16 @@ import java.util.*;
 public class Professor {
     public static List<Professor> professors = new ArrayList<>();
 
-    public String name;
-    public float popularity;
+    public String name, firstName, title, imgLink;
+    public float popularity = 0.5f;
     public List<Modul> modules = new ArrayList<>();
 
-    public Professor(String name) {
+    public Professor(String name, String firstName, String title, String imgLink) {
         professors.add(this);
         this.name = name;
+        this.firstName = firstName;
+        this.title = title;
+        this.imgLink = imgLink;
     }
 
     public static Professor findByName(String name) {
@@ -21,8 +24,16 @@ public class Professor {
         return null;
     }
 
+    public String getImgLink() {
+        return imgLink;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     @Override
     public String toString() {
-        return "Prof. " + name;
+        return title + " " + firstName + " " + name;
     }
 }

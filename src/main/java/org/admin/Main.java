@@ -1,9 +1,14 @@
 package org.admin;
 
 import org.data.*;
+import org.rest.RESTHandler;
 
 import java.io.*;
 import java.net.URISyntaxException;
+import java.net.URL;
+import java.net.URLDecoder;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.*;
 import java.util.function.Function;
@@ -12,9 +17,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Willkommen bei InfoGuide. Daten werden geladen.");
-        LoadData.dataMine(new File(Main.class.getClassLoader().getResource("data.csv").getFile()));
+        LoadData.dataMine(new File(Main.class.getClassLoader().getResource("data.csv").getFile()), new File(Main.class.getClassLoader().getResource("profs.csv").getFile()));
 
-        /*System.out.println("Geben Sie für jedes der folgenden Themengebiete an, wie interessiert Sie daran im Allgemeinen sind (Wert zwischen 0 und 1).");
+        RESTHandler rest = new RESTHandler();
+
+        System.out.println("Geben Sie für jedes der folgenden Themengebiete an, wie interessiert Sie daran im Allgemeinen sind (Wert zwischen 0 und 1).");
 
         for(Tag tag : Tag.tags) {
             System.out.print(tag + ": ");
@@ -66,11 +73,15 @@ public class Main {
         Modul.moduleList.sort((item1, item2) -> Float.compare(item1.rating, item2.rating));
         Collections.reverse(Modul.moduleList);
 
-        /*System.out.println("Basierend auf Ihren Interessen sollten Sie folgende Module belegen:");
+        /*System.out.println("Basierend auf Ihren Angaben sollten Sie folgende Module belegen:");
         List<Modul> recommendation = Result.greedyPick(reverseModules);
         for(Modul m : recommendation)
             System.out.println(m + " (" + m.cp + " CP) " + m.rating);*/
 
-        Result.linearSum(Modul.moduleList);
+        List<Modul> recommendation = Result.linearSum(Modul.moduleList);
+
+        System.out.println("Basierend auf Ihren Angaben sollten Sie folgende Module belegen:");
+        for(Modul m : recommendation)
+            System.out.println(m + " (" + m.cp + " CP)");
     }
 }

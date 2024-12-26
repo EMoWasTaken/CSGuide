@@ -1,0 +1,2832 @@
+
+Gurobi 11.0.2 (win64, Java) logging started Wed Dec 25 18:34:26 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 1 rows, 45 columns and 45 nonzeros
+Model fingerprint: 0xeb956943
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [2e+00, 1e+01]
+  Objective range  [0e+00, 0e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e+01, 4e+01]
+Found heuristic solution: objective -0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 1: -0 
+No other solutions better than -0
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -0.000000000000e+00, best bound -0.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Wed Dec 25 18:37:28 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 1 rows, 45 columns and 45 nonzeros
+Model fingerprint: 0x846ee875
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [2e+00, 1e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e+01, 4e+01]
+Found heuristic solution: objective 6.9055560
+Presolve removed 1 rows and 45 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 2: 8.29444 6.90556 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.294444918633e+00, best bound 8.294444918633e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Wed Dec 25 19:02:50 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 1 rows, 45 columns and 45 nonzeros
+Model fingerprint: 0x1560af3c
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [2e+00, 1e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [4e+01, 4e+01]
+Found heuristic solution: objective 6.8777780
+Presolve removed 1 rows and 45 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 2: 8.23556 6.87778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.235555827618e+00, best bound 8.235555827618e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Wed Dec 25 19:25:54 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0xb2792b12
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 7.9555560
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 43 columns, 81 nonzeros
+Variable types: 0 continuous, 43 integer (41 binary)
+Found heuristic solution: objective 8.1111115
+
+Root relaxation: objective 8.277778e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    8.27778    0    1    8.11111    8.27778  2.05%     -    0s
+H    0     0                       8.2511114    8.27778  0.32%     -    0s
+     0     0 infeasible    0         8.25111    8.25111  0.00%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (1 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 8.25111 8.11111 7.95556 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.251111447811e+00, best bound 8.251111447811e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Wed Dec 25 19:55:45 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x2eb87fd9
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 6.5600002
+Presolve removed 0 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 42 columns, 78 nonzeros
+Variable types: 0 continuous, 42 integer (39 binary)
+
+Root relaxation: objective 7.743810e+00, 4 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    7.74381    0    1    6.56000    7.74381  18.0%     -    0s
+H    0     0                       7.6238098    7.74381  1.57%     -    0s
+H    0     0                       7.7393653    7.74381  0.06%     -    0s
+     0     0 infeasible    0         7.73937    7.73937  0.00%     -    0s
+
+Cutting planes:
+  Cover: 1
+
+Explored 1 nodes (4 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 7.73937 7.62381 6.56 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.739365339279e+00, best bound 7.739365339279e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:11:23 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x403cd018
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 7.3722225
+Presolve removed 0 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 42 columns, 80 nonzeros
+Variable types: 0 continuous, 42 integer (39 binary)
+
+Root relaxation: objective 7.610000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       7.6100003    7.61000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 7.61 7.37222 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.610000252724e+00, best bound 7.610000252724e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:18:33 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x5775bb45
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 9e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 7.3388893
+Presolve removed 0 rows and 3 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 42 columns, 80 nonzeros
+Variable types: 0 continuous, 42 integer (39 binary)
+
+Root relaxation: objective 7.605556e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    7.60556    0    1    7.33889    7.60556  3.63%     -    0s
+H    0     0                       7.5988892    7.60556  0.09%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 7.59889 7.33889 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.598889231682e+00, best bound 7.598889231682e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:12 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 36 columns and 68 nonzeros
+Model fingerprint: 0x9a8a5432
+Variable types: 0 continuous, 36 integer (36 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 8e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 4.9466668
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 34 columns, 66 nonzeros
+Variable types: 0 continuous, 34 integer (32 binary)
+Found heuristic solution: objective 5.2133335
+
+Root relaxation: objective 6.051111e+00, 4 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    6.05111    0    1    5.21333    6.05111  16.1%     -    0s
+H    0     0                       5.9733335    6.05111  1.30%     -    0s
+     0     0    6.04889    0    1    5.97333    6.04889  1.26%     -    0s
+
+Cutting planes:
+  RLT: 1
+
+Explored 1 nodes (5 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5.97333 5.21333 4.94667 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.973333537579e+00, best bound 5.973333537579e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:22 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 29 columns and 53 nonzeros
+Model fingerprint: 0xc261b0a4
+Variable types: 0 continuous, 29 integer (29 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 4.6812580
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 27 columns, 51 nonzeros
+Variable types: 0 continuous, 27 integer (25 binary)
+Found heuristic solution: objective 4.6939564
+
+Root relaxation: objective 5.510306e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.51031    0    1    4.69396    5.51031  17.4%     -    0s
+H    0     0                       5.4769722    5.51031  0.61%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5.47697 4.69396 4.68126 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.476972222328e+00, best bound 5.476972222328e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:33 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:36 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:37 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:37 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:37 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:39 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:39 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:39 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:39 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:39 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:39 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:40 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:41 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:42 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:43 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:44 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:45 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x85d71220
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2393653
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.23937    5.18737  22.4%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.23937 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:47 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 22 columns and 40 nonzeros
+Model fingerprint: 0x8883f81f
+Variable types: 0 continuous, 22 integer (22 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [4e-01, 6e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 3.5193652
+Presolve removed 0 rows and 2 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 20 columns, 38 nonzeros
+Variable types: 0 continuous, 20 integer (18 binary)
+Found heuristic solution: objective 4.2615876
+
+Root relaxation: objective 5.187365e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.18737    0    1    4.26159    5.18737  21.7%     -    0s
+H    0     0                       5.0949209    5.18737  1.81%     -    0s
+H    0     0                       5.1171432    5.18737  1.37%     -    0s
+
+Cutting planes:
+  MIR: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 4: 5.11714 5.09492 4.26159 3.51937 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.117143154144e+00, best bound 5.117143154144e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:56 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:58 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:19:59 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:20:00 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:20:00 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:20:00 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:20:00 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:20:01 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:20:01 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:20:01 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 1 columns and 1 nonzeros
+Model fingerprint: 0x9ae5ce67
+Variable types: 0 continuous, 1 integer (1 binary)
+Coefficient statistics:
+  Matrix range     [6e+00, 6e+00]
+  Objective range  [4e-01, 4e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Presolve removed 1 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:34 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:36 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:37 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:37 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:37 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:37 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:37 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:38 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:39 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:39 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:42 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:51 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:23:55 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:24:02 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:24:06 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:24:56 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 5 rows, 45 columns and 83 nonzeros
+Model fingerprint: 0x3383d3ed
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+01]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 5.5977778
+Presolve removed 0 rows and 7 columns
+Presolve time: 0.00s
+Presolved: 5 rows, 38 columns, 72 nonzeros
+Variable types: 0 continuous, 38 integer (31 binary)
+
+Root relaxation: objective 5.840000e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       5.8400000    5.84000  0.00%     -    0s
+
+Explored 1 nodes (3 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 2: 5.84 5.59778 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.840000033379e+00, best bound 5.840000033379e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:26:48 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 6 rows, 45 columns and 128 nonzeros
+Model fingerprint: 0xfb185ca4
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [4e-01, 7e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 4.3333335
+Presolve removed 0 rows and 8 columns
+Presolve time: 0.00s
+Presolved: 6 rows, 37 columns, 108 nonzeros
+Variable types: 0 continuous, 37 integer (31 binary)
+Found heuristic solution: objective 4.7055557
+
+Root relaxation: objective 5.618889e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.61889    0    1    4.70556    5.61889  19.4%     -    0s
+H    0     0                       5.4255557    5.61889  3.56%     -    0s
+H    0     0                       5.5366668    5.61889  1.49%     -    0s
+H    0     0                       5.5477780    5.61889  1.28%     -    0s
+
+Cutting planes:
+  RLT: 1
+  Relax-and-lift: 1
+
+Explored 1 nodes (3 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 5: 5.54778 5.53667 5.42556 ... 4.33333
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.547777950764e+00, best bound 5.547777950764e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:28:29 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 6 rows, 45 columns and 128 nonzeros
+Model fingerprint: 0xc4ddbb5f
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [5e-01, 5e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 4.0000000
+Presolve removed 2 rows and 38 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 7 columns, 18 nonzeros
+Found heuristic solution: objective 4.5000000
+Variable types: 0 continuous, 7 integer (2 binary)
+
+Root relaxation: objective 5.200000e+00, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.20000    0    1    4.50000    5.20000  15.6%     -    0s
+H    0     0                       5.0000000    5.20000  4.00%     -    0s
+     0     0    5.20000    0    1    5.00000    5.20000  4.00%     -    0s
+
+Explored 1 nodes (2 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 4.5 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:28:35 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 6 rows, 45 columns and 128 nonzeros
+Model fingerprint: 0xc4ddbb5f
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [5e-01, 5e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 4.0000000
+Presolve removed 2 rows and 38 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 7 columns, 18 nonzeros
+Found heuristic solution: objective 4.5000000
+Variable types: 0 continuous, 7 integer (2 binary)
+
+Root relaxation: objective 5.200000e+00, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.20000    0    1    4.50000    5.20000  15.6%     -    0s
+H    0     0                       5.0000000    5.20000  4.00%     -    0s
+     0     0    5.20000    0    1    5.00000    5.20000  4.00%     -    0s
+
+Explored 1 nodes (2 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 4.5 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:28:43 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 6 rows, 45 columns and 128 nonzeros
+Model fingerprint: 0xc4ddbb5f
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [5e-01, 5e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 4.0000000
+Presolve removed 2 rows and 38 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 7 columns, 18 nonzeros
+Found heuristic solution: objective 4.5000000
+Variable types: 0 continuous, 7 integer (2 binary)
+
+Root relaxation: objective 5.200000e+00, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.20000    0    1    4.50000    5.20000  15.6%     -    0s
+H    0     0                       5.0000000    5.20000  4.00%     -    0s
+     0     0    5.20000    0    1    5.00000    5.20000  4.00%     -    0s
+
+Explored 1 nodes (2 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 4.5 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+
+Gurobi 11.0.2 (win64, Java) logging started Thu Dec 26 07:28:52 2024
+
+Set parameter Username
+Set parameter LicenseID to value 2603526
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2025-12-25
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: AMD Ryzen 5 2600 Six-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 6 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 6 rows, 45 columns and 128 nonzeros
+Model fingerprint: 0xc4ddbb5f
+Variable types: 0 continuous, 45 integer (45 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+01]
+  Objective range  [5e-01, 5e-01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 4e+01]
+Found heuristic solution: objective 4.0000000
+Presolve removed 2 rows and 38 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 7 columns, 18 nonzeros
+Found heuristic solution: objective 4.5000000
+Variable types: 0 continuous, 7 integer (2 binary)
+
+Root relaxation: objective 5.200000e+00, 2 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    5.20000    0    1    4.50000    5.20000  15.6%     -    0s
+H    0     0                       5.0000000    5.20000  4.00%     -    0s
+     0     0    5.20000    0    1    5.00000    5.20000  4.00%     -    0s
+
+Explored 1 nodes (2 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 3: 5 4.5 4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%

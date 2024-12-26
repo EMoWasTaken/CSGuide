@@ -1,14 +1,10 @@
 package org.admin;
 
-import com.google.ortools.linearsolver.*;
-import com.google.ortools.modelbuilder.LinearConstraint;
 import org.data.*;
 import java.util.*;
-import com.google.ortools.*;
+import com.gurobi.gurobi.*;
 
 public class Result {
-    static { System.loadLibrary("jniortools"); }
-
     public static List<Modul> greedyPick(List<Modul> input) {
         Modul seminar = null;
         Modul practical = null;
@@ -68,8 +64,89 @@ public class Result {
         return recommendation;
     }
 
-    public static void linearSum(List<Modul> input) {
-        double[] cpCounts = new double[input.size()];
+    public static List<Modul> linearSum(List<Modul> input) {
+        try {
+            double[] inputRatings = new double[input.size()];
+            for(int i = 0; i < input.size(); i++)
+                inputRatings[i] = input.get(i).rating;
+
+            double[] cpCounts = new double[input.size()];
+            for(int i = 0; i < input.size(); i++)
+                cpCounts[i] = input.get(i).cp;
+
+            double[] practicals = new double[input.size()];
+            for(int i = 0; i < input.size(); i++)
+                practicals[i] = input.get(i).type == Type.PRAKTIKUM ? 1 : 0;
+
+            double[] seminars = new double[input.size()];
+            for(int i = 0; i < input.size(); i++)
+                seminars[i] = input.get(i).type == Type.SEMINAR ? 1 : 0;
+
+            GRBEnv env = new GRBEnv(true);
+            env.set("logFile", "gurobi.log");
+            env.start();
+
+            GRBModel model = new GRBModel(env);
+
+            int variableCount = input.size();
+            GRBVar[] variables = new GRBVar[variableCount];
+            for(int i = 0; i < variableCount; i++)
+                variables[i] = model.addVar(0, 1, 0, GRB.BINARY, "x" + (i + 1));
+
+            GRBLinExpr objective = new GRBLinExpr();
+            for(int i = 0; i < variableCount; i++)
+                objective.addTerm(inputRatings[i], variables[i]);
+            model.setObjective(objective, GRB.MAXIMIZE);
+
+            GRBLinExpr cpConstraint1 = new GRBLinExpr();
+            for(int i = 0; i < variableCount; i++)
+                cpConstraint1.addTerm(cpCounts[i], variables[i]);
+            model.addConstr(cpConstraint1, GRB.LESS_EQUAL, 43, "c1");
+
+            GRBLinExpr cpConstraint2 = new GRBLinExpr();
+            for(int i = 0; i < variableCount; i++)
+                cpConstraint1.addTerm(cpCounts[i], variables[i]);
+            model.addConstr(cpConstraint1, GRB.GREATER_EQUAL, 39, "c1");
+
+            GRBLinExpr practicalConstraint1 = new GRBLinExpr();
+            for(int i = 0; i < variableCount; i++)
+                practicalConstraint1.addTerm(practicals[i], variables[i]);
+            model.addConstr(practicalConstraint1, GRB.LESS_EQUAL, 2, "c2");
+
+            GRBLinExpr practicalConstraint2 = new GRBLinExpr();
+            for(int i = 0; i < variableCount; i++)
+                practicalConstraint2.addTerm(practicals[i], variables[i]);
+            model.addConstr(practicalConstraint2, GRB.GREATER_EQUAL, 1, "c3");
+
+            GRBLinExpr seminarConstraint1 = new GRBLinExpr();
+            for(int i = 0; i < variableCount; i++)
+                seminarConstraint1.addTerm(seminars[i], variables[i]);
+            model.addConstr(seminarConstraint1, GRB.LESS_EQUAL, 3, "c4");
+
+            GRBLinExpr seminarConstraint2 = new GRBLinExpr();
+            for(int i = 0; i < variableCount; i++)
+                seminarConstraint2.addTerm(seminars[i], variables[i]);
+            model.addConstr(seminarConstraint2, GRB.GREATER_EQUAL, 1, "c5");
+
+            model.optimize();
+
+            List<Modul> recommendation = new ArrayList<>();
+
+            if(model.get(GRB.IntAttr.Status) == GRB.OPTIMAL) {
+                for(int i = 0; i < variableCount; i++)
+                    if(variables[i].get(GRB.DoubleAttr.X) == 1.0)
+                        recommendation.add(input.get(i));
+            }
+
+            model.dispose();
+            env.dispose();
+
+            return recommendation;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+        /*double[] cpCounts = new double[input.size()];
         for(int i = 0; i < input.size(); i++)
             cpCounts[i] = input.get(i).cp;
 
@@ -106,6 +183,6 @@ public class Result {
                 System.out.printf("x%d = %f%n", i + 1, variables[i].solutionValue());
             System.out.printf("Optimal objective value: %f%n", target.value());
         } else
-            System.out.println("No optimal solution found.");
+            System.out.println("No optimal solution found.");*/
     }
 }

@@ -6,13 +6,25 @@ import java.io.*;
 import java.util.*;
 
 public class LoadData {
-    public static void dataMine(File csvFile) {
+    public static void dataMine(File dataFile, File profsFile) {
+        Map<String, String[]> profMap = new HashMap<>();
         List<List<String>> records = new ArrayList<>();
 
-        try (BufferedReader csvReader = new BufferedReader(new FileReader(csvFile))) {
+        try (BufferedReader profsReader = new BufferedReader(new FileReader(profsFile))) {
             String line;
 
-            while((line = csvReader.readLine()) != null) {
+            while((line = profsReader.readLine()) != null) {
+                String[] values = line.split(";");
+                profMap.put(values[0], new String[]{ values[1], values[2], values[3] });
+            }
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+
+        try (BufferedReader dataReader = new BufferedReader(new FileReader(dataFile))) {
+            String line;
+
+            while((line = dataReader.readLine()) != null) {
                 String[] values = line.split(";");
                 records.add(Arrays.asList(values));
             }
@@ -40,7 +52,7 @@ public class LoadData {
                 for(int j = 0; j < profs.length; j++) {
                     profs[j] = Professor.findByName(profStrings[j]);
                     if (profs[j] == null)
-                        profs[j] = new Professor(profStrings[j]);
+                        profs[j] = new Professor(profStrings[j], profMap.get(profStrings[j])[0], profMap.get(profStrings[j])[1], profMap.get(profStrings[j])[2]);
                 }
 
                 Modul m = new Modul(row.get(5), row.get(0), Integer.parseInt(row.get(1)), profs, moduleType);
