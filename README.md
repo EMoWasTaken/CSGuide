@@ -1,4 +1,4 @@
-# InfoGuide
+# CS Guide
 Modul-Ratgeber für Studenten im Bachelor Informatik an der Goethe-Uni Frankfurt.
 
 CS Guide bietet zwei verschiedene Algorithmen an, mit denen Studenten im Bachelor Informatik an der Goethe-Universität ermitteln können, welche Vertiefungsmodule am ehesten zu ihren Interessen passen. Zurückgegeben wird eine übersichtliche Liste von Modulen, die die höchste Relevanz für den Studenten haben und zugleich den Richtlinien der Prüfungsordnung genügen.
