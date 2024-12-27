@@ -39,7 +39,7 @@ $(document).ready(function() {
                 $("#result_announce").html("Basierend auf Ihren Angaben sollten Sie folgende Module belegen:");
                 let resultList = "";
                 for(let key in response)
-                    resultList = resultList.concat("<li>" + response[key]["name"] + " (" + key + ", " + response[key]["cp"] + " CP)</li>");
+                    resultList = resultList.concat("<li class='result'>" + response[key]["name"] + " (" + key + ", " + response[key]["cp"] + " CP)</li>");
                 $("#result_list").html(resultList);
             }
         });
@@ -55,7 +55,7 @@ $(document).ready(function() {
                 $("#result_announce").html("Basierend auf Ihren Angaben sollten Sie folgende Module belegen:");
                 let resultList = "";
                 for(let key in response)
-                    resultList = resultList.concat("<li>" + response[key]["name"] + " (" + key + ", " + response[key]["cp"] + " CP)</li>");
+                    resultList = resultList.concat("<li class='result'>" + response[key]["name"] + " (" + key + ", " + response[key]["cp"] + " CP)</li>");
                 $("#result_list").html(resultList);
             }
         });

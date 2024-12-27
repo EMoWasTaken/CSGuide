@@ -15,7 +15,8 @@ public class LoadData {
 
             while((line = profsReader.readLine()) != null) {
                 String[] values = line.split(";");
-                profMap.put(values[0], new String[]{ values[1], values[2], values[3] });
+
+                profMap.put(values[0], new String[]{ values[1], values[2], values[3], values.length == 5 ? values[4] : "" });
             }
         } catch(Exception e) {
             e.printStackTrace();
@@ -52,7 +53,7 @@ public class LoadData {
                 for(int j = 0; j < profs.length; j++) {
                     profs[j] = Professor.findByName(profStrings[j]);
                     if (profs[j] == null)
-                        profs[j] = new Professor(profStrings[j], profMap.get(profStrings[j])[0], profMap.get(profStrings[j])[1], profMap.get(profStrings[j])[2]);
+                        profs[j] = new Professor(profStrings[j], profMap.get(profStrings[j])[0], profMap.get(profStrings[j])[1], profMap.get(profStrings[j])[2],profMap.get(profStrings[j])[3]);
                 }
 
                 Modul m = new Modul(row.get(5), row.get(0), Integer.parseInt(row.get(1)), profs, moduleType);

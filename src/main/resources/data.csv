@@ -1,10 +1,10 @@
 B-ATIG;6;Algorithmen:Theorie:Praxis;Pacher;V;Aktuelle Themen der Informatik (gross)
 B-ATIK;5;Algorithmen:Theorie:Praxis;Pacher;V;Aktuelle Themen der Informatik (klein)
-B-DLCV;14;Deep Learning:neuronale Netze:Datenverarbeitung:KI:Machine Learning:Praxis;Roig;P;Deep Learning for Computer Vision
-B-EAQC;3;Quantencomputing:Optimierung:Physik:Technik:lineare Algebra;Lippert;V;Einfuehrung in angewandtes Quantencomputing
+B-DLCV;14;Deep Learning:Neuronale Netze:Datenverarbeitung:KI:Machine Learning:Praxis;Roig;P;Deep Learning for Computer Vision
+B-EAQC;3;Quantencomputing:Optimierung:Physik:Technik:Lineare Algebra;Lippert;V;Einfuehrung in angewandtes Quantencomputing
 B-EiAL;5;Algorithmen:Optimierung:Spieltheorie:Theorie;Meyer;V;Einfuehrung in die Algorithmik
 B-EFP;5;Funktionale Programmierung:Haskell:Praxis;Schmidt-Schauss;V;Einfuehrung in die funktionale Programmierung
-B-KI;5;KI:Machine Learning:Deep Learning:neuronale Netze:Praxis;Meyer;V;Einfuehrung in die Methoden der Kuenstlichen Intelligenz
+B-KI;5;KI:Machine Learning:Deep Learning:Neuronale Netze:Praxis;Meyer;V;Einfuehrung in die Methoden der Kuenstlichen Intelligenz
 B-EMSC;3;Optimierung:Physik:Technik;Lippert;V;Einfuehrung in modulares Supercomputing
 B-VS;8;Systemtheorie:Netzwerke:Datenverarbeitung:Technik;Lindenstruth;V;Einfuehrung in verteilte Systeme
 B-ES;6;Systemtheorie:Technik;Brinkschulte;V;Eingebettete Systeme
@@ -16,19 +16,19 @@ B-DBV;6;Datenverarbeitung:Machine Learning:KI:Systemtheorie:Praxis;Ramesh;V;Grun
 B-GeA-1;5;Algorithmen:Optimierung:Stochastik:Sprachen:Komplexitaetstheorie:Theorie;Kovacs;V;Grundlagen effizienter Algorithmen 1
 B-GeA-2;5;Algorithmen:Optimierung:Stochastik:Sprachen:Komplexitaetstheorie:Theorie;Kovacs;V;Grundlagen effizienter Algorithmen 2
 B-HL;6;Optimierung:Physik:Hochleistungsrechner:Netzwerke:Technik;Lindenstruth;V;Hochleistungsrechnerarchitekturen
-B-ML1;6;Machine Learning:KI:neuronale Netze:Data Science:Praxis;Kuehne;V;Machine Learning I
+B-ML1;6;Machine Learning:KI:Neuronale Netze:Data Science:Praxis;Kuehne;V;Machine Learning I
 B-NLP-DS;6;Data Science:NLP:Machine Learning:KI:Praxis;Mehler;V;NLP-gestuetzte Data Science
 B-ASI-PR;8;Hardwareentwurf:Systemtheorie:Technik;Hedrich;P;Praktikum analoge Schaltungen der Informationsverarbeitung
 B-HWS-PR;8;Hardwareentwurf:Technik;Brinkschulte;P;Praktikum Grundlagen von Hardwaresystemen
 B-HLA-PR;8;Programmierung:Grafik:Optimierung:Netzwerke:Hochleistungsrechner:Praxis;Kisel;P;Praktikum Hochleistungsrechnerarchitekturen
-B-ICVML-PR;8;Forschung:Programmierung:Datenverarbeitung:KI:Machine Learning:neuronale Netze:Praxis;Kuehne;P;Praktikum Introduction to Computer Vision and Machine Learning
+B-ICVML-PR;8;Forschung:Programmierung:Datenverarbeitung:KI:Machine Learning:Neuronale Netze:Praxis;Kuehne;P;Praktikum Introduction to Computer Vision and Machine Learning
 B-PNLR-PR;8;VR:Datenbanken:NLP:Programmierung:Unity3D:Grafik:3D-Modellierung:VR:Machine Learning:KI:Deep Learning:Datenverarbeitung:Praxis;Mehler;P;Praktikum Processing Natural Language Resources
 B-WI-PR;8;Wirtschaft:Programmierung:Praxis;Minor;P;Praktikum Wirtschaftsinformatik
 B-PS1;2;Programmierung:Programmiersprachen:Praxis;Bertschinger;V;Programmiersprachen 1
 B-PS2;2;Programmierung:Programmiersprachen:Praxis;Bertschinger;V;Programmiersprachen 2
 B-ATPR-S;5;Wissenschaftliches Arbeiten:Programmierung:Praxis;Schmidt-Schauss;S;Seminar aktuelle Themen aus der Programmierung
 B-ATAI-S;5;Wissenschaftliches Arbeiten:Praxis;Drachsler;S;Seminar aktuelle Themen der angewandten Informatik
-B-ATKI-S;5;Wissenschaftliches Arbeiten:KI:Machine Learning:neuronale Netze:Deep Learning:Praxis;Kuehne;S;Seminar aktuelle Themen der Kuenstlichen Intelligenz
+B-ATKI-S;5;Wissenschaftliches Arbeiten:KI:Machine Learning:Neuronale Netze:Deep Learning:Praxis;Kuehne;S;Seminar aktuelle Themen der Kuenstlichen Intelligenz
 B-AUK-S;5;Wissenschaftliches Arbeiten:Algorithmen:Komplexitaetstheorie:Theorie;Dell;S;Seminar Algorithmen und Komplexitaet
 B-ATEM-S;5;Wissenschaftliches Arbeiten:Hardwareentwurf:Systemtheorie:Technik;Hedrich;S;Seminar ausgewaehlte Themen der Entwurfsmethodik
 B-CH-S;5;Wissenschaftliches Arbeiten:Geisteswissenschaften:NLP:Programmierung:Praxis;Mehler;S;Seminar Computational Humanities
@@ -37,7 +37,7 @@ B-Edu-S;5;Wissenschaftliches Arbeiten:Programmierung:Datenbanken:Geisteswissensc
 B-MSP-S;5;Wissenschaftliches Arbeiten:Programmierung:Programmiersprachen:Praxis;Naegel;S;Seminar Modellierung von Softwaresystemen und Programmiersprachen
 B-PAMI-S;5;Wissenschaftliches Arbeiten:Machine Learning:KI:Praxis;Kaschube;S;Seminar Pattern Analysis and Machine Intelligence
 B-SYS-S;5;Wissenschaftliches Arbeiten:Systemtheorie:Hardwareentwurf:Technik;Brinkschulte;S;Seminar Systemarchitekturen
-B-TA-S;5;Wissenschaftliches Arbeiten:NLP:Programmierung:Stochastik:Praxis;Mehler;S;Sminar Text Analytics
+B-TA-S;5;Wissenschaftliches Arbeiten:NLP:Programmierung:Stochastik:Praxis;Mehler;S;Seminar Text Analytics
 B-SE;6;Programmierung:Praxis;Ramesh;V;Systems Engineering and Software Engineering
 B-SYSL;6;Programmierung:KI:Neurowissenschaften:Praxis;Ramesh;V;Systems Engineering Meets Life Sciences
 B-TTDA;6;Programmierung:NLP:Data Science:Datenbanken:Praxis;Mehler;V;Texttechnologische Datenanalyse
