@@ -1,0 +1,6 @@
+@echo off
+echo Compiling project ...
+call mvn clean compile
+echo Running application ...
+call mvn exec:java
+pause
