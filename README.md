@@ -6,6 +6,7 @@ CS Guide bietet zwei verschiedene Algorithmen an, mit denen Studenten im Bachelo
 ## Applikation starten
 Aktuell ist die Web-App noch nicht gehostet, deswegen gehen Sie zum Start bitte wie folgt vor:
 
-1. Laden Sie einen Java-Compiler Ihrer Wahl herunter.
-2. Öffnen Sie das Projekt und führen Sie die Datei Main.java aus.
-3. Wählen Sie einen Browser Ihrer Wahl und geben Sie die URL "localhost:7777" ein.
+1. Installieren Sie Java 17 für Ihr Betriebssystem: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+2. Installieren Sie Apache Maven 3.9.9 für Ihr Betriebssystem: https://maven.apache.org/download.cgi
+3. Führen Sie build.bat aus.
+4. Sobald die Kompilierung abgeschlossen und die Web-App aufgesetzt ist, geben Sie in einem Browser Ihrer Wahl die URL "localhost:7777" ein.
