@@ -2,7 +2,7 @@ package org.admin;
 
 import org.data.*;
 import java.util.*;
-import com.gurobi.gurobi.*;
+import com.google.ortools.linearsolver.*;
 
 public class Result {
     public static List<Modul> greedyPick(List<Modul> input) {
@@ -82,7 +82,48 @@ public class Result {
             for(int i = 0; i < input.size(); i++)
                 seminars[i] = input.get(i).type == Type.SEMINAR ? 1 : 0;
 
-            GRBEnv env = new GRBEnv(true);
+            MPSolver solver = MPSolver.createSolver("SCIP");
+            if (solver == null) {
+                System.err.println("SCIP solver is not available.");
+                return null;
+            }
+
+            int variableCount = input.size();
+            MPVariable[] variables = new MPVariable[variableCount];
+
+            for(int i = 0; i < variableCount; i++)
+                variables[i] = solver.makeIntVar(0, 1, "m" + i);
+
+            MPObjective objective = solver.objective();
+
+            for(int i = 0; i < variableCount; i++)
+                objective.setCoefficient(variables[i], inputRatings[i]);
+
+            objective.setMaximization();
+
+            MPConstraint cpConstraint = solver.makeConstraint(39, 43, "cp");
+            MPConstraint practicalConstraint = solver.makeConstraint(1, 2, "practical");
+            MPConstraint seminarConstraint = solver.makeConstraint(1, 3, "seminar");
+
+            for(int i = 0; i < variableCount; i++) {
+                cpConstraint.setCoefficient(variables[i], cpCounts[i]);
+                practicalConstraint.setCoefficient(variables[i], practicals[i]);
+                seminarConstraint.setCoefficient(variables[i], seminars[i]);
+            }
+
+            MPSolver.ResultStatus status = solver.solve();
+
+            List<Modul> recommendation = new ArrayList<>();
+
+            if(status == MPSolver.ResultStatus.OPTIMAL) {
+                for(int i = 0; i < variableCount; i++)
+                    if(variables[i].solutionValue() == 1.0)
+                        recommendation.add(input.get(i));
+            }
+
+            return recommendation;
+
+            /*GRBEnv env = new GRBEnv(true);
             env.set("logFile", "gurobi.log");
             env.start();
 
@@ -141,7 +182,7 @@ public class Result {
             model.dispose();
             env.dispose();
 
-            return recommendation;
+            return recommendation;*/
         } catch (Exception e) {
             e.printStackTrace();
             return null;

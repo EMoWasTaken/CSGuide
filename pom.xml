@@ -46,9 +46,9 @@
             <version>5.2</version>
         </dependency>
         <dependency>
-            <groupId>com.gurobi</groupId>
-            <artifactId>gurobi</artifactId>
-            <version>11.0.2</version>
+            <groupId>com.google.ortools</groupId>
+            <artifactId>ortools-java</artifactId>
+            <version>9.11.4210</version>
         </dependency>
         <dependency>
             <groupId>io.javalin</groupId>
